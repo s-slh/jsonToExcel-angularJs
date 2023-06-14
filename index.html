@@ -10,7 +10,14 @@
     <h1>hello word welcome to omega</h1>
     <!-- everythings bellow this div and until this div is closed
      is beign controlled by this "myFistController" -->
-    <div ng-controller="myFistController"></div>
+     <!-- this peace of view is bound to "app.js" and in particular beign bound to 
+     this function "myFistController" defined by the controller 
+     this binding or this binder are happening automatically and it's done by angularjs for you  -->
+    <div ng-controller="myFistController">
+             <p>this peace of view is bound to "app.js" and in particular beign bound to 
+     the function "myFistController" defined by the controller ,
+     this binding or this binder are happening automatically and it's done by angularjs for you </p>
+    </div>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script> -->
     <script src="angular.js"></script>
     <script src="app.js"></script>
